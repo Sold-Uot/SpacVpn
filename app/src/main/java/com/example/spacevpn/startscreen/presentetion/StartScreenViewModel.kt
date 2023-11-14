@@ -1,5 +1,6 @@
 package com.example.spacevpn.startscreen.presentetion
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -9,6 +10,8 @@ class StartScreenViewModel : ViewModel() {
     val liveData :LiveData<String> = _mutableLiveData
 
     fun startCreatNewAccount(){
+
+        Log.e("hello" , "fas")
 
     }
 }
