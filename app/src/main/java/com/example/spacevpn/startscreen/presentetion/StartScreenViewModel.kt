@@ -9,5 +9,11 @@ class StartScreenViewModel : ViewModel() {
     private val _mutableLiveData = MutableLiveData<String>()
     val liveData :LiveData<String> = _mutableLiveData
 
+    fun result(){
+        _mutableLiveData.value = "hello"
+    }
+
+
+    fun reset(){}
 
 }
