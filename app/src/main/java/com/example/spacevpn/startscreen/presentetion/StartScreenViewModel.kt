@@ -9,9 +9,5 @@ class StartScreenViewModel : ViewModel() {
     private val _mutableLiveData = MutableLiveData<String>()
     val liveData :LiveData<String> = _mutableLiveData
 
-    fun startCreatNewAccount(){
 
-        Log.e("hello" , "fas")
-
-    }
 }
