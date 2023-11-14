@@ -13,4 +13,7 @@ class StartScreenViewModel : ViewModel() {
         _mutableLiveData.value = "hello"
     }
 
+
+    fun reset(){}
+
 }
