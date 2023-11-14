@@ -1,6 +1,7 @@
 package com.example.spacevpn.startscreen.presentetion
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
@@ -25,7 +26,7 @@ class StartActivity : ComponentActivity() {
                 NavGraph(navController = navController )
                 // A surface container using the 'background' color from the theme
 
-
+            Log.d("gte", "Dw")
 
 
 
