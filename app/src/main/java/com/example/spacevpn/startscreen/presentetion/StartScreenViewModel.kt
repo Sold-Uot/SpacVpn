@@ -11,4 +11,8 @@ class StartScreenViewModel : ViewModel() {
     fun startCreatNewAccount(){
 
     }
+
+
+    fun test () {}
+
 }
