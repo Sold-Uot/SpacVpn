@@ -28,6 +28,8 @@ class StartActivity : ComponentActivity() {
 
             Log.d("gte", "Dw")
 
+                Log.w("", "Fd")
+
 
 
             }
